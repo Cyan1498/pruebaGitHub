@@ -31,19 +31,25 @@ table {
     background-color: #ddd;
   }
   
-  /* Estilos para la card */
-.card {
+/* Estilos para las listas */
+.info-lists {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .info-list {
+    flex: 1;
     border: 1px solid #ddd;
     padding: 20px;
-    margin-top: 20px;
     background-color: #f9f9f9;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  .card h2 {
+  .info-list h2 {
     margin-top: 0;
   }
   
-  .card p {
-    margin-bottom: 10px;
+  .info-list ol {
+    padding-left: 20px;
   }
