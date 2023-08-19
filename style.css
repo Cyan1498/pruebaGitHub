@@ -3,3 +3,31 @@ h1{
     font-weight: bold;
     color: aqua;
 }
+
+/* Estilos para la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para resaltar filas alternas */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para resaltar celdas al pasar el ratón */
+  tr:hover {
+    background-color: #ddd;
+  }
+  
